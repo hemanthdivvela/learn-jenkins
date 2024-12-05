@@ -34,7 +34,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo uint-Test'
-                sh 'sleep 10'
+                // sh 'sleep 10'
             }
         }
         stage('Deploy') {
@@ -50,6 +50,7 @@ pipeline {
                 echo "Choice: ${params.CHOICE}"
                 echo "Password: ${params.PASSWORD}"
                 echo "tigget test again"
+                hdskdsjjd
             }
         }
     }
