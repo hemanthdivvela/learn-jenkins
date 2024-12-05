@@ -50,7 +50,7 @@ pipeline {
                 echo "Choice: ${params.CHOICE}"
                 echo "Password: ${params.PASSWORD}"
                 echo "tigget test again"
-                hdskdsjjd
+                error 'some failure'
             }
         }
     }
